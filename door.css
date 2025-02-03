@@ -1,0 +1,360 @@
+@font-face {
+    font-family: "regular";
+    src: url(font\TTNorms-Regular.otf);
+}
+@font-face {
+    font-family: "bold";
+    src: url(font/TTNorms-Bold.otf);
+}
+@font-face {
+    font-family: "light";
+    src: url(font/TTNorms-Light.otf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(font/TTNorms-Medium.otf);
+}
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.main {
+    display: grid;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 16px;
+    border: none;
+    padding: 8px;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 8px;
+    width: 100%;
+}
+
+    
+
+
+.logo{
+    border: 1px solid #f1f1f1ff;
+    border-radius: 8px;
+    
+
+}
+
+
+.brw{
+    font-family: bold;
+    color: #191919;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    display: block;
+}
+
+.dol{
+    color: #606060ff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    max-width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} 
+
+
+.star{
+    font-family: "medium";
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(96, 96, 96);
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+
+}
+.star svg{
+    margin-inline:1px;
+}
+.star span{
+    margin-left: 4px;
+}
+.open a{
+    position: relative;
+    max-width: 100%;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-box-pack: start;
+    border-radius: 9999px;
+    background-color: #eb1700ff;
+    font-size: 16px;
+    color: #ffffffff;
+    letter-spacing: -0.01px;
+    padding: 0px 12px;
+    text-decoration: none;
+    font-family: bold;
+    cursor: pointer;
+    box-shadow: 1px;
+    /* top: 8px; */
+    /* right: 10px; */
+}
+.second-main{
+    display: flex;
+    box-sizing: border-box;
+    -webkit-box-pack: center;
+    flex-direction: column;
+    align-items: center;
+}
+.orange{
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
+    height: 550px;
+    padding: 0px 8px;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    -webkit-box-align: center;
+    z-index: 1;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-pack: center;
+    box-sizing: border-box;
+}
+.cent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    -webkit-box-pack: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.dordsh .lgo{
+    padding-right: 10px;
+}
+.dordsh{
+    max-width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.rest h1{
+    max-width: 350px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    line-height: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.rest{
+    padding-bottom: 23px;
+}
+.hanger{
+    /* padding: 24px;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    gap: 8px; */
+    position: absolute;
+    left:0px;
+    right: 0px;
+    top: 79px;
+    margin-top: 24px;
+    z-index: 1;
+    display: flex;
+    
+}
+.switch{
+    display: flex;
+    padding-right: 24px;
+    -webkit-box-pack: end;
+    justify-content:flex-end;
+    column-gap: 8px;
+    flex-grow: 1;
+    flex-basis: 0%;
+    row-gap: 8px;
+    top: 25px;
+    padding-top:8px;
+}
+.login{
+    position: relative;
+    max-width: 100%;
+    margin:0px 0px;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    /* justify-content: flex-start; */
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #ffffffff;
+}
+.login span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1px 12px ;
+    color: #191919;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01;
+    /* display: flex; */
+    /* justify-content: center;
+    flex-direction: row; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration-thickness: auto;
+}
+.openapp{
+    position: relative;
+    max-width: 100%;
+    margin: 0 0;
+    display: inline-flex;
+    min-height: 32px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #EB1700;
+    color: white;
+}
+.openapp span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1px 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.01;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: auto;
+}
+.location{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    width: 298px;
+    z-index: 1;
+    /* padding:6px 16px; */
+    background-color: #ffffffff;
+    justify-content: space-evenly;
+    height: 52px;
+}
+
+.inp input{
+    text-overflow: ellipsis;
+    font-family: medium;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    border: none;
+}
+.inp{
+    /* padding-left:0px;
+    padding-right: 15px; */
+    padding-top: 12px;
+    margin-bottom: 12px;
+}
+/* .mag{
+    padding-right:12px ;
+} */
+.button-l{
+    margin-top: 16px;
+    padding: 0px 12px;
+    display: flex;
+    min-height: 32px;
+    align-items: center;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffffff;
+    color: #191919;
+}
+.log{
+    font-family: bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    margin-left: 4px;
+
+}
+.banner{
+    max-width: 400px;
+    width:335px;
+    margin:0px auto;
+    flex:1 0 auto;
+    box-sizing: border-box;
+    margin:20px 20px 0px 20px;
+    display: contents;
+}
+.banner-out{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(247, 247,247);
+    box-sizing: border-box;
+    display: block;
+    height: 163px;
+    max-width: 100%;
+    padding: 20px;
+    width:337px;
+    border-radius: 12px;
+}
+.main-banner{
+    display: flex;
+    text-align: left;
+    height: 64px;
+    width: 293px;
+    box-sizing: border-box;
+}
+.ban-log{
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    padding:8px;
+    margin-right: 8px;
+    border: 1px solid #f1f1f1ff;
+    background-color: #ffffffff;
+}
